@@ -34,6 +34,6 @@ end
 private
 
 def workout_params
-  params.require(:workout).permit(:name)
+  params.require(:workout).permit(:name, :user_id)
 end
 end
